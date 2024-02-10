@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: #6B4E45;
+}
+.header{
+    position: sticky;
+    top: 0;
+    background-color: #6B4E45;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    width: 100%;
+    height: 90px;
+}
+.header img{
+    width: 188.7px;
+}
+.header li{
+    display: inline-block;
+    padding-left: 75px;
+    text-align: center;
+}
+.header a {
+    text-decoration: none;
+    color: #F4EADA;
+    font-family: ibm plex sans arabic;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header ul
+{
+    text-align: center;
+}
+#header li a:hover {
+    color: #D3BEA7;
+}
+.header p {
+    font-family: ibm plex sans arabic;
+    color: #F4EADA;
+    font-weight: 600;
+    font-size: 20px;
+}
+#En a:hover {
+    color: #D3BEA7;
+}
+.Banner {
+    height: 579px;
+    background-color:#F4EADA;
+    position: relative;
+}
+#Add {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-60%);
+}
+#Coffee_P {
+  padding: 35px 35px; 
+  position: absolute;
+  left: 0%;
+}
+.Day {
+    position: absolute;
+top: 203px;
+padding: 0;
+padding-right: 100px;
+    display: block;
+    font-family: harir;
+    font-size: 50pt;
+
+}
+
+#button a{
+    text-decoration: none;
+    font-family: harir;
+    font-size: 20px;
+    text-align: center;
+    color: #6B4E45;
+}
+.Founding {
+    height: 665px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+.Footer {
+    height: 348px;
+    background-color: #6B4E45;
+    display: block;
+    position: relative;
+    width: auto;
+}
+#Man {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    padding: 0;
+
+}
+.button {
+    position: absolute;
+    top: 393px;
+    padding: 20px 100px;
+}
+
+.button button {
+    border-style: solid;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 9px 25px;
+    font-family: harir;
+    margin: auto;
+    color: #6B4E45;
+    width: 160px;
+    height: 52.91px;
+    border-radius: 18px;
+    background-color: #F4EADA;
+    border-width: 4px ;
+    border-color: #6B4E45 ;
+}
+button.button_T:hover
+{
+    background-color:#6B4E45;
+    color: #F4EADA;
+}
+.content {
+    position: absolute;
+    width: 901px;
+    padding: 0;
+    padding-right: 100px;
+    padding-top: 50px;
+    
+}
+.content h1 {
+font-family: harir;
+font-weight: 400;
+font-size: 60pt;
+color: #6B4E45;
+}
+.content p{
+    font-family: harir;
+font-weight: 400;
+font-size: 27pt;
+}
+.img_C {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(150%);
+}
+.Logo_T {
+position: absolute;
+left: 0;
+padding: 0%;
+padding-left: 120px;
+
+}
+.Footer img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+}
+.Footer p {
+    position: absolute;
+    font-size: 32px;
+    font-family: harir;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(40%);
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.Social {
+    display: inline-block;
+position: absolute;  
+right: 50%;
+transform: translateX(50%) translateY(-170%) 
+}
+.Social img {
+    padding: 0%;
+    padding-left: 20px;
+}
+hr
+{
+    padding: 50px auto;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.copy {
+    font-family: roboto;
+    font-size: 20px;
+    color: #F4EADA;
+    font-weight: 500;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 15px;
+}
